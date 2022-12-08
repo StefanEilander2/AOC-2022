@@ -18,7 +18,7 @@ public class day3pt2 {
         String letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
         Map<Character, Integer> map = new HashMap<Character, Integer>();
         int currentnumber = 1;
-        List lines = new ArrayList<String>();
+        List<String> lines = new ArrayList<String>();
         for (Character letter : letters.toCharArray()) {
             map.put(letter, currentnumber);
             currentnumber++;

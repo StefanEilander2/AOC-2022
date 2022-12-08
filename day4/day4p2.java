@@ -14,7 +14,7 @@ public class day4p2 {
         int doublePairs = 0;
 
         for (String pair : assignments.split("\n")) {
-            List startEnd = new ArrayList<Integer>();
+            List<Integer> startEnd = new ArrayList<Integer>();
             for (String elf : pair.split(",")) {
                 
                 for(String number : elf.split( "-")){

@@ -3,8 +3,7 @@ package day2;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.HashMap;
-import java.util.Map;
+
 public class day2v1 {
    public static void main(String[] args) throws IOException {
         Path filePath = Path.of("C:/Users/stefa/GitHub/AOC 2022/day2/day2.txt");

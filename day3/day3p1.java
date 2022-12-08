@@ -27,7 +27,7 @@ public class day3p1 {
         for (String content : bags.split("\n")) {
         int middle = content.length()/2;
         String[] parts = {content.substring(0, middle),content.substring(middle)};
-        List lettersBag = new ArrayList<Character>();
+        List<Character> lettersBag = new ArrayList<Character>();
         Character duplicate = null;
         for (int i = 0; i < parts[0].length(); i++) {
             lettersBag.add(parts[0].charAt(i));
